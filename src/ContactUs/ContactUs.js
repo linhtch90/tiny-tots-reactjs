@@ -9,7 +9,7 @@ import Script from "@gumgum/react-script-tag";
 import HeadquartersMap from "../HeadquartersMap/HeadquartersMap.js";
 import StoresMap from "../StoresMap/StoresMap.js";
 
-const google = window.google;
+//const google = window.google;
 
 function ContactUs() {
   useEffect(() => {

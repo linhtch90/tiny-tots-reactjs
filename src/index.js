@@ -10,6 +10,7 @@ import Footer from "./Footer/Footer.js";
 import Home from "./Home/Home.js";
 import Franchise from "./Franchise/Franchise.js";
 import ContactUs from "./ContactUs/ContactUs.js";
+import Products from "./Products/Products.js";
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -29,6 +30,9 @@ ReactDOM.render(
         </Route>
         <Route path="/contactus">
           <ContactUs />
+        </Route>
+        <Route path="/products">
+          <Products />
         </Route>
       </Switch>
       <Footer />
