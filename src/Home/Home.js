@@ -10,8 +10,8 @@ import carousel3 from "./images/carousel-3.jpg";
 import carousel4 from "./images/carousel-4.jpg";
 
 import customer1 from "./images/customer-1.jpg";
-import customer2 from "./images/customer-1.jpg";
-import customer3 from "./images/customer-1.jpg";
+import customer2 from "./images/customer-2.jpg";
+import customer3 from "./images/customer-3.jpg";
 
 import featuresSaving from "./images/features-saving.jpg";
 import featuresCashback from "./images/features-cashback.jpg";

@@ -4,9 +4,10 @@ import "./style/contactus.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import Script from '@gumgum/react-script-tag';
+import Script from "@gumgum/react-script-tag";
 
-/*global google*/
+import HeadquartersMap from "../HeadquartersMap/HeadquartersMap.js";
+import StoresMap from "../StoresMap/StoresMap.js";
 
 const google = window.google;
 
@@ -16,7 +17,7 @@ function ContactUs() {
       duration: 2000,
     });
   });
-    
+
   return (
     <div>
       {/* SALES INFOR */}
@@ -73,7 +74,10 @@ function ContactUs() {
                   assist you.
                 </p>
                 <button type="button" className="btn btn-outline-danger">
-                  <a className="mailtoui email-sp" href="mailto:info@tinytots.com">
+                  <a
+                    className="mailtoui email-sp"
+                    href="mailto:info@tinytots.com"
+                  >
                     Email Support
                   </a>
                 </button>
@@ -87,7 +91,10 @@ function ContactUs() {
       <section id="headquaters">
         <div className="container">
           <div className="d-flex w-100 justify-content-around">
-            <div className="d-flex flex-column headquaters-item" data-aos="zoom-in">
+            <div
+              className="d-flex flex-column headquaters-item"
+              data-aos="zoom-in"
+            >
               <h2 className="headquaters-title">Headquaters</h2>
               <p className="headquaters-content">
                 <b>Address:</b> 1 Phan Dang Luu Street, Hai Chau District,
@@ -109,7 +116,7 @@ function ContactUs() {
               <p>
                 <span
                   className="badge badge-pill badge-danger"
-                  style="margin-top: 4rem"
+                  style={{ marginTop: "4rem" }}
                 >
                   Or you can visit us at:
                 </span>
@@ -121,7 +128,9 @@ function ContactUs() {
                 <i className="fab fa-youtube-square"></i>
               </p>
             </div>
-            <div id="headquaters-map"></div>
+            <div id="headquaters-map">
+              <HeadquartersMap />
+            </div>
           </div>
         </div>
       </section>
@@ -154,10 +163,12 @@ function ContactUs() {
 
           <div className="d-flex justify-content-around align-items-center stores-list-container">
             <div className="stores-map-container">
-              <div id="stores-map">map</div>
+              <div id="stores-map">
+                <StoresMap />
+              </div>
             </div>
             <div data-aos="zoom-out">
-              <h2 style="padding-left: 1rem">List of Stores</h2>
+              <h2 style={{ paddingLeft: "1rem" }}>List of Stores</h2>
               {/* Store 1 */}
               <div className="store-add">
                 <h4>Store 1:</h4>
@@ -203,16 +214,14 @@ function ContactUs() {
             </div>
           </div>
         </div>
-	  
       </section>
 
-	{/* Import script file with react-script-tag */}
-	{/* <Script src="https://polyfill.io/v3/polyfill.min.js?features=default" />
+      {/* Import script file with react-script-tag */}
+      {/* <Script src="https://polyfill.io/v3/polyfill.min.js?features=default" />
 	<Script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlLbg_xX82eONbEfGGuQuP-THVaMgqDZk&callback=getlocation&libraries=&v=weekly" defer />
 	<Script src="./js/geolocation.js" />
 	<Script src="./js/stores-map.js" />
 	<Script src="https://cdn.jsdelivr.net/npm/mailtoui@1.0.3/dist/mailtoui-min.js" /> */}
-	
     </div>
   );
 }
