@@ -1,0 +1,32 @@
+.product-card-container {
+    width: 32%;
+    height: 36rem;
+}
+
+.product-card-column {
+    width: 100%;
+    height: 100%
+}
+
+.product-photo {
+    width: 90%;
+    height: 15rem;
+}
+
+.product-name {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.product-category {
+    font-size: 0.7rem;
+}
+
+.product-price {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.product-button-container {
+    width: 100%;
+}

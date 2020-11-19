@@ -13,11 +13,11 @@ body {
 }
 
 .brand-background {
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .category-background {
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .brand-container {
@@ -27,7 +27,6 @@ body {
 .brand-title {
     font-size: 2rem;
     font-weight: 800;
-    margin: 2rem;
 }
 
 .brand-logo {
@@ -44,5 +43,45 @@ body {
     font-weight: 600;
     padding: 1rem 3rem;
 }
+
+/* Cart */
+
+.product-card {
+    width: 27%;
+    height: 28rem;
+    margin: 2rem 1rem;
+    border: solid;
+    padding: 1rem;
+}
+
+.product-card-column {
+    width: 100%;
+    height: 100%
+}
+
+.product-photo {
+    width: 100%;
+    height: 18rem;
+}
+
+.product-name {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.product-category {
+    font-size: 0.7rem;
+}
+
+.product-price {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.product-button-container {
+    width: 100%;
+}
+
+
 
 

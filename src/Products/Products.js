@@ -11,7 +11,36 @@ import lego from "./images/brands/lego.png";
 import pamper from "./images/brands/pamper.png";
 import pigeon from "./images/brands/pigeon.png";
 
+import ProductCard from "../ProductCard/ProductCard.js";
+
 function Products() {
+  const [productList, setProductList] = useState([]);
+  const [originalList, setOriginalList] = useState([]);
+
+  useEffect(function fetchData() {
+    fetch("./product-data.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setProductList(data);
+        setOriginalList(data);
+      });
+  },[]);
+
+  // function filterCategory(category) {
+  //   let filterList = productList.filter(function (item) {
+  //     return item.Category === category;
+  //   });
+  //   if (filterList.length !== productList.length) {
+  //     setProductList(filterList);
+  //   }
+  // }
+
+    // function allProduct() {
+    // 	if (productList.length < originalList.length) {
+    // 	    setProductList(originalList);
+    // 	}
+    // }
+
   return (
     <div>
       {/*Products page*/}
@@ -42,7 +71,11 @@ function Products() {
                 <p>CATEGORY</p>
               </div>
               <div className="d-flex flex-row justify-content-between align-items-center brand-container">
-                <button type="button" className="category-button">
+                <button
+                  type="button"
+                  className="category-button"
+                  
+                >
                   BABY CARE
                 </button>
                 <button type="button" className="category-button">
@@ -56,6 +89,54 @@ function Products() {
                 </button>
               </div>
             </div>
+          </div>
+        </div>
+        {/*Show All*/}
+        <div className="container-fluid category-background">
+          <div className="container">
+            <div className="d-flex flex-column justify-content-center align-items-center">
+              <div className="brand-title">
+                  <button type="button" className="category-button" >
+                  OUR PRODUCTS
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Show products */}
+      <section id="show-product">
+        <div className="container">
+          <div className="d-flex flex-row flex-wrap justify-content-center align-items-center">
+            {productList &&
+              productList.map((productItem) => {
+                return (
+                  <div className="product-card">
+                    <div className="d-flex flex-column product-card-column">
+                      <img
+                        src={productItem.Image}
+                        alt="product-photo"
+                        className="justify-self-center align-self-center product-photo"
+                      />
+                      <p className="product-name">{productItem.Name}</p>
+                      <p className="product-category">
+                        Category: {productItem.Category}
+                      </p>
+                      <p className="product-category">
+                        Brand: {productItem.Brand}
+                      </p>
+                      <p className="product-price">
+                        Price: {productItem.Price} USD
+                      </p>
+                      <div className="d-flex flex-row justify-content-between align-items-center product-button-container">
+                        <button>Add to Cart</button>
+                        <button>Add to Compare</button>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
           </div>
         </div>
       </section>

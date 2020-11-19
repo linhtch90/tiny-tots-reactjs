@@ -2,7 +2,7 @@
   {
     "ID": "BA1",
     "Category": "Baby Care",
-    "Image": "baby-care/bottlejs1.jpg",
+    "Image": "./images/baby-care/bottlejs1.jpg",
     "Name": "Anti Colic Bottle 260ml",
     "Price": 15.0,
     "Brand": "Johnson"
@@ -10,7 +10,7 @@
   {
     "ID": "BA2",
     "Category": "Baby Care",
-    "Image": "baby-care/bottle-pigeon1.jpg",
+    "Image": "./images/baby-care/bottle-pigeon1.jpg",
     "Name": "Nursing Bottle",
     "Price": 14.45,
     "Brand": "Pigeon"
@@ -18,7 +18,7 @@
   {
     "ID": "BA3",
     "Category": "Baby Care",
-    "Image": "baby-care/stroller1.jpg",
+    "Image": "./images/baby-care/stroller1.jpg",
     "Name": "Baby Stroller",
     "Price": 578.5,
     "Brand": "Kids"
@@ -26,7 +26,7 @@
   {
     "ID": "BA4",
     "Category": "Baby Care",
-    "Image": "baby-care/bib1.jpg",
+    "Image": "./images/baby-care/bib1.jpg",
     "Name": "Waterproof Silicone Bib",
     "Price": 5.8,
     "Brand": "Pigeon"
@@ -34,7 +34,7 @@
   {
     "ID": "BA5",
     "Category": "Baby Care",
-    "Image": "baby-care/pacifier1.jpg",
+    "Image": "./images/baby-care/pacifier1.jpg",
     "Name": "Ultra Air Pacifier",
     "Price": 6.5,
     "Brand": "Johnson"
@@ -42,7 +42,7 @@
   {
     "ID": "FA1",
     "Category": "Fashion",
-    "Image": "fashion/girldress1.jpg",
+    "Image": "./images/fashion/girldress1.jpg",
     "Name": "Girl Party Dress",
     "Price": 30.0,
     "Brand": "Baby Comfy"
@@ -50,7 +50,7 @@
   {
     "ID": "FA2",
     "Category": "Fashion",
-    "Image": "fashion/girltshirt1.jpg",
+    "Image": "./images/fashion/girltshirt1.jpg",
     "Name": "Girl Cotton T-shirt",
     "Price": 8.0,
     "Brand": "Kids"
@@ -58,7 +58,7 @@
   {
     "ID": "FA3",
     "Category": "Fashion",
-    "Image": "fashion/Fairydress1.jpg",
+    "Image": "./images/fashion/Fairydress1.jpg",
     "Name": "Girl Fairy Dress",
     "Price": 20.5,
     "Brand": "Kids"
@@ -66,7 +66,7 @@
   {
     "ID": "FA4",
     "Category": "Fashion",
-    "Image": "fashion/boytshirt1.jpg",
+    "Image": "./images/fashion/boytshirt1.jpg",
     "Name": "Boy Cotton T-shirt",
     "Price": 8.0,
     "Brand": "Kids"
@@ -74,7 +74,7 @@
   {
     "ID": "FA5",
     "Category": "Fashion",
-    "Image": "fashion/boydenim1.jpg",
+    "Image": "./images/fashion/boydenim1.jpg",
     "Name": "Boy Denim Jumpsuits",
     "Price": 15.25,
     "Brand": "Baby Comfy"
@@ -82,7 +82,7 @@
   {
     "ID": "TO1",
     "Category": "Toys",
-    "Image": "toys/lego1.jpg",
+    "Image": "./images/toys/lego1.jpg",
     "Name": "LEGO Construction Bulldozer",
     "Price": 30.2,
     "Brand": "Lego"
@@ -90,7 +90,7 @@
   {
     "ID": "TO2",
     "Category": "Toys",
-    "Image": "toys/piano1.jpg",
+    "Image": "./images/toys/piano1.jpg",
     "Name": "Mini Keys Musical Keyboard",
     "Price": 45.0,
     "Brand": "Kids"
@@ -98,7 +98,7 @@
   {
     "ID": "TO3",
     "Category": "Toys",
-    "Image": "toys/truck1.jpg",
+    "Image": "./images/toys/truck1.jpg",
     "Name": "Monster Truck Cars",
     "Price": 15.5,
     "Brand": "Lego"
@@ -106,7 +106,7 @@
   {
     "ID": "TO4",
     "Category": "Toys",
-    "Image": "toys/barbie1.jpg",
+    "Image": "./images/toys/barbie1.jpg",
     "Name": "Barbie Doll",
     "Price": 17.99,
     "Brand": "Baby Comfy"
@@ -114,7 +114,7 @@
   {
     "ID": "TO5",
     "Category": "Toys",
-    "Image": "toys/unicorn1.jpg",
+    "Image": "./images/toys/unicorn1.jpg",
     "Name": "Unicorn Toy Soft Stuffed",
     "Price": 10.99,
     "Brand": "Lego"
@@ -122,7 +122,7 @@
   {
     "ID": "WE1",
     "Category": "Wellness and Hygiene",
-    "Image": "wellness-and-hygiene/diaper1.jpg",
+    "Image": "./images/wellness-and-hygiene/diaper1.jpg",
     "Name": "Diaper",
     "Price": 18.0,
     "Brand": "Pampers"
@@ -130,7 +130,7 @@
   {
     "ID": "WE2",
     "Category": "Wellness and Hygiene",
-    "Image": "wellness-and-hygiene/wipe1.jpg",
+    "Image": "./images/wellness-and-hygiene/wipe1.jpg",
     "Name": "Baby Wet Wipes",
     "Price": 6.99,
     "Brand": "Johnson"
@@ -138,7 +138,7 @@
   {
     "ID": "WE3",
     "Category": "Wellness and Hygiene",
-    "Image": "wellness-and-hygiene/shampoo1.jpg",
+    "Image": "./images/wellness-and-hygiene/shampoo1.jpg",
     "Name": "Baby Shampoo",
     "Price": 9.0,
     "Brand": "Johnson"
@@ -146,7 +146,7 @@
   {
     "ID": "WE4",
     "Category": "Wellness and Hygiene",
-    "Image": "wellness-and-hygiene/powder1.jpg",
+    "Image": "./images/wellness-and-hygiene/powder1.jpg",
     "Name": "Baby Powder",
     "Price": 6.5,
     "Brand": "Johnson"
@@ -154,8 +154,8 @@
   {
     "ID": "WE5",
     "Category": "Wellness and Hygiene",
-    "Image": "wellness-and-hygiene/mosquito1.jpg",
-    "Name": "Mosquito Repellent Natural Spray for Babies and Kids",
+    "Image": "./images/wellness-and-hygiene/mosquito1.jpg",
+    "Name": "Mosquito Repellent",
     "Price": 4.5,
     "Brand": "Pampers"
   }
